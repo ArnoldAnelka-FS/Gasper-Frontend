@@ -4,8 +4,10 @@ const Gasper = () => {
   return (
     <div className="background">
       <div className="gasper-container">
-        <div className="gasper-word">Gasper</div>
-        <div className="moving-line"></div>
+        <a href="/" className="gasper-link">
+          <div className="gasper-word">Gasper</div>
+          <div className="moving-line"></div>
+        </a>
       </div>
     </div>
   );
